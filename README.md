@@ -1,26 +1,3 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/toughiq/mariadb-cluster.svg)](https://hub.docker.com/r/toughiq/mariadb-cluster/)
-[![](https://images.microbadger.com/badges/image/toughiq/mariadb-cluster.svg)](https://microbadger.com/images/toughiq/mariadb-cluster "Get your own image badge on microbadger.com")
-
-# docker-mariadb-cluster
-__Version 2__
-Dockerized Automated MariaDB Galera Cluster
-
-Version 2 is the advanced branch and is featured on DockerHub as `latest` from now on.
-Old version 1.0 can be found here: https://github.com/toughIQ/docker-mariadb-cluster/tree/v1.
-To get V1.0 Docker images, just `docker pull toughiq/mariadb-cluster:1.0`
-
-The idea of this project is to create an automated and fully ephemeral MariaDB Galera cluster.
-No static bindings, no persistent volumes. Like a disk RAID the data gets replicated across the cluster. 
-If one node fails, another node will be brought up and the data will be initialized.
-
-__Consider this a POC and not a production ready system!__ 
-
-Built for use with Docker __1.12.1__+ in __Swarm Mode__
-
-# WORK in Progress!
-
-See [Issues](https://github.com/toughIQ/docker-mariadb-cluster/issues) for known problems and [Wiki](https://github.com/toughIQ/docker-mariadb-cluster/wiki) for notes and ideas.
-
 ## Setup
 ### Init Swarm Nodes/Cluster
 
