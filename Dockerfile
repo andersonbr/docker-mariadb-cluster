@@ -1,4 +1,5 @@
-FROM mariadb:10.6.0
+FROM mariadb:10.5
+
 MAINTAINER andersonbr@gmail.com
 
 RUN apt-get update && apt-get upgrade -y \
